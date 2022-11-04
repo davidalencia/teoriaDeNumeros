@@ -1,5 +1,8 @@
 from funcionesAritmeticas import phi
 
+"""
+ord_{m}(n)
+"""
 def ord(n, m):
   for i in range(1, phi(m)):
     if pow(n, i)%m ==1:
