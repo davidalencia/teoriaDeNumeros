@@ -19,7 +19,6 @@ def phi(n):
     d = dict.fromkeys(factores, 0)
     for i in factores:
         d[i] = d[i] + 1
-    print(d)
     s = n
     for p, a in d.items():
         s *= (1-(1/p)) #s*(pow(p, a+1)-1)//(p-1)
