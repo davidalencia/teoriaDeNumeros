@@ -13,6 +13,17 @@ def _8():
   print(raices_primitivas(17))
   print(raices_primitivas(23))
 
+def _10():
+  print("función auxiliar para ej 10")
+  print("buscamos la raiz 15 mod 29")
+  print(root(15, 29, True))
+  print("buscamos la raiz 20 mod 127")
+  print(root(20, 127, True))
+  print("buscamos la raiz 11 mod 31")
+  print(root(11, 31, True))
+  
+
 _4()
 _8()
+_10()
 
