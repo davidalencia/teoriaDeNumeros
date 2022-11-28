@@ -20,7 +20,7 @@ def encuentra_congruencia(cil):
     if reduce(lambda acc, ci: acc and ci.resuelve(x), cil, True):
       return x
 
-print(encuentra_congruencia([CI(101, 2, 103)]))
+#print(encuentra_congruencia([CI(101, 2, 103)]))
 #print(encuentra_congruencia([CI(1, 5, 7), CI(1, 7, 11), CI(1, 3, 13)]))
 
 
@@ -54,4 +54,5 @@ def _6b():
        CI(1,3,9).resuelve(x) and\
        CI(1,4,7).resuelve(x):
       return x
+
 
